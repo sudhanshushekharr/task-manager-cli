@@ -22,16 +22,22 @@ The project uses the filesystem module (`fs`) in Node.js to perform file operati
    git clone https://github.com/your-username/repository-name.git
    cd repository-name
 2.	Install dependencies:
+	```bash
     npm install
 
 (Note: This project doesn’t require any external dependencies at this stage.)
 
 Usage
-	1.	Add a task:
+	1.Add a task:
+        ```bash
         node index.js add "Your task here"
-    	2.	List all tasks:
+	
+    	2.List all tasks:
+     ```bash
         node index.js list
-        3.	Remove a task:
+	
+        3.Remove a task:
+	```bash
         node index.js remove <task-number>
             
 Learning Goals
