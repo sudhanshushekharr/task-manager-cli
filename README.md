@@ -28,16 +28,16 @@ The project uses the filesystem module (`fs`) in Node.js to perform file operati
 (Note: This project doesn’t require any external dependencies at this stage.)
 
 Usage
-	1.Add a task:
-        ```bash
+1.Add a task:
+
         node index.js add "Your task here"
 	
-    	2.List all tasks:
-     ```bash
+2.List all tasks:
+     
         node index.js list
 	
-        3.Remove a task:
-	```bash
+3.Remove a task:
+	
         node index.js remove <task-number>
             
 Learning Goals
