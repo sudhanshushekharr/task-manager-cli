@@ -19,7 +19,7 @@ The project uses the filesystem module (`fs`) in Node.js to perform file operati
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/repository-name.git
+   git clone  https://github.com/sudhanshushekharr/task-manager-cli.git
    cd repository-name
 2.	Install dependencies:
 	```bash
@@ -30,15 +30,15 @@ The project uses the filesystem module (`fs`) in Node.js to perform file operati
 Usage
 1.Add a task:
 
-        node index.js add "Your task here"
+        node todo.js add "Your task here"
 	
 2.List all tasks:
      
-        node index.js list
+        node todo.js list
 	
 3.Remove a task:
 	
-        node index.js remove <task-number>
+        node todo.js remove <task-number>
             
 Learning Goals
 	•	Understanding file operations in Node.js.
